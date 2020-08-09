@@ -23,8 +23,11 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className="contact-image-div">
-                    <img alt="Saad Working" src={require("../../assets/images/contactMail.webp")}></img>
+                    <img alt="Shashank Working" src={require("../../assets/images/contactMail.webp")}></img>
                 </div>
+                <div className="image-content-profile">
+            <img src="../../assets/PIC.jpeg" className="profile-image"/>
+          </div>
             </div>
         </div>
         </Fade>

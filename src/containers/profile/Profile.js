@@ -59,6 +59,7 @@ if (openSource.showGithubProfile === "true" && !(typeof prof === 'string' || pro
       </Suspense>
        );
   } else {
-    return <Contact />;
+    // return <Contact />;
+    return <GithubProfileCard prof={prof} key={prof.id} />
   }
 }

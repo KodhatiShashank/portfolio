@@ -7,11 +7,13 @@ import { Fade } from "react-reveal";
 export default function Talks() {
   return (
     <Fade bottom duration={1000} distance="20px">
-    <div className="main" id="talks">
+    <div className="main" id="articles">
+      
       <div className="talk-header">
         <h1 className="talk-header-title">{talkSection.title}</h1>
+        
         <p className="subTitle talk-header-subtitle">{talkSection.subtitle}</p>
-        <div className="talk-cards-div">
+        {/* <div className="talk-cards-div">
           {talkSection.talks.map(talk => {
             return (
               <TalkCard
@@ -25,7 +27,7 @@ export default function Talks() {
               />
             );
           })}
-        </div>
+        </div> */}
       </div>
     </div>
     </Fade>
